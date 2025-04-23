@@ -1,0 +1,41 @@
+ <!DOCTYPE html> <!-- recubre el dom -->
+ <html lang="en"><!--accesibilidad lenguaje de incapaccitados -->
+ <head>
+    <meta charset="UTF-8"> <!-- #protocolo que guarda un backup de mi app -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- etiqueta como main que conitene el proyect, punto de entrada -->
+    <link rel="stylesheet" href="./styles.css">
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <title>Mi CV</title>
+ </head>
+ <body>
+    <section>
+        <div class="card">
+
+
+            <div class="avatar-container">
+                <img class="avatar" src="./assets/avatar.jpg" alt="avatar" id="avatarPreview">
+            </div>
+
+            <div class="description-container">
+                <h2>Acerca de mí</h2>
+                <p>Estdudiane en Desarrollo de software</p>
+            </div>
+
+            <div class="contact-container">
+                <p>📞 3192935900</p>
+            </div>
+            
+            <div class="links">
+                <a href="education.html" class="link-card">Educación</a>
+                <a href="experience.html" class="link-card">Experiencia</a>
+            </div>
+            
+            <button id="downloadBtn" class="link-card" style="font-weight: bold;">Descargar CV</button>
+
+        </div>
+    </section>
+ </body>
+ </html>
+
+<!--  ven -->
